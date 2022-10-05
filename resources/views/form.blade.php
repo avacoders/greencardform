@@ -5,7 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>GREENCARD - PERFECTOCONSULTING</title>
+    <title>GREEN CARD - PERFECTOCONSULTING</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
           integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 
@@ -38,7 +38,7 @@
         <div class="row h-100 justify-content-center align-items-center align-content-center">
             <div class="col-lg-6">
                 <div class="card">
-                    <div class="card-header">GREENCARD uchun RO'YXATDAN O'TISH</div>
+                    <div class="card-header">GREEN CARD uchun RO'YXATDAN O'TISH</div>
                     <div class="card-body">
                         <form action="{{ route("greencard") }}"  method="post">
                             @csrf
