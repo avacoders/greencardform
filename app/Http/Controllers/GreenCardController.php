@@ -36,7 +36,7 @@ class GreenCardController extends Controller
         $text = "Yangi ariza: #ariza$greencard->id";
         $text .= "\n\n👤 Ism: $greencard->name";
         $text .= "\n📞 Telefon raqam: $greencard->phone";
-        dd($this->telegram->sendMessage(config("bots.group"), $text)->body());
+        $this->telegram->sendMessage(config("bots.group"), $text)->body();
 
         Alert::success('Muvaffaqiyatli', 'Sizning arizangiz muvaffaqiyatli yuborildi. Tez orada siz bilan bog\'lanamiz');
 
