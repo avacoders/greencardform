@@ -11,9 +11,9 @@
 
     <style>
         body {
-            background-image: url("/img/image.jpg");
+            background-image: url("/img/image.webp");
             background-size: cover;
-            background-position: center;
+            background-position: right;
             background-repeat: no-repeat;
         }
 
